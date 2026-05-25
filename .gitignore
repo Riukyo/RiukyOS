@@ -1,0 +1,15 @@
+# Rust
+/target/
+
+# Runtime outputs
+/reports/
+report.json
+report.txt
+
+# Editor/OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Important:
+# Cargo.lock is intentionally NOT ignored because this workspace contains binaries.
